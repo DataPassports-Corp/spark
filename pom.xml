@@ -2534,6 +2534,14 @@
     </pluginManagement>
 
     <plugins>
+      <plugin>
+        <groupId>org.apache.felix</groupId>
+        <artifactId>maven-bundle-plugin</artifactId>
+        <version>4.2.1</version>
+        <inherited>true</inherited>
+        <extensions>true</extensions>
+      </plugin>
+
       <!-- This plugin dumps the test classpath into a file -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
